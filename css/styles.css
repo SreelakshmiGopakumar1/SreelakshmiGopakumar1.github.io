@@ -45,6 +45,10 @@ body.active{
         transform:translateY(0)
     }
 }
+img {
+  border-radius: 50%;
+}
+
 header{
     position:absolute;
     top:0;
@@ -316,6 +320,19 @@ footer{
     color:#0a0a0a;
     margin:0
 }
+
+.fulljustify {
+        text-align:justify;
+        text-justify: inter-word;
+    }
+    .fulljustify:after {
+        content: "";
+        display: inline-block;
+        width: 100%;    
+    }
+
+
+
 #experience{
     padding:50px 15px;
     text-align:center;
@@ -751,5 +768,10 @@ footer{
         font-size:0.9em;
         padding:5px 10px
     }
+@media (max-width: 991px) {
+  .about-area .about-left {
+    display: none; } }
+.about-area .primary-btn.white {
+  margin-right: 10px; }
 }
  

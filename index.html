@@ -49,7 +49,7 @@
         <div id="lead-content">
             <h1>Sreelakshmi Gopakumar</h1>
             <h2>Computer Vision and Machine Learning Researcher</h2>
-            <a href="..\images\Resume.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="..\images\Resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -70,17 +70,27 @@
                 <div class="col-md-12">
                     <h2 class="heading">About Me</h2>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-4 col-md-4 col-sm-12 about-left">
+					<img class="img-fluid" src="images/pic.jpg" alt="" width="330" height="340">
+				</div>
+                <div class="col-md-12 col-lg-8 col-sm-12">
 
-                    <p align=”justify”>
+                    <p id="tagline" class="fulljustify">
                        I am an Erasmus graduate student from the University of Trento, Italy. I am currently working on my master thesis about Text to image generation using Deep Learning in retro remote sensing. I am highly passionate about pursuing my career in the field of Machine Learning and Computer Vision. My main research focus includes the development of preprocessing, training, and evaluation pipelines for Machine Learning models, also on implementing visual recognition solutions for computer vision applications.
                      </p>
-                     <p align=”justify”>
-						My best expectation is to be responsible for my tasks and carry them out according to the requirements. My passions vary from state-of-the-art technologies to research. Taking new challenges and responsibilities is what drives me in any situation to do my best.
+
+                     <p id="tagline" class="fulljustify">
+						My best expectation is to be responsible for my tasks and carry them out according to the requirements. My passions vary from state-of-the-art technologies to research. Taking new challenges and responsibilities is what drives me in any situation to do my best.<br>
 					</p>
-					<p align=”justify”>
-						I am strongly results-oriented and have excellent organizational work abilities that enable me to manage time and resources effectively. I am looking for opportunities to work with a friendly and hard-working team that could improve my knowledge and perspective.  
+
+					<p id="tagline" class="fulljustify">
+						I am strongly results-oriented and have excellent organizational work abilities that enable me to manage time and resources effectively. I am looking for opportunities to work with a friendly and hard-working team that could improve my knowledge and perspective.<br> 
 					</p>
+
+					<div class="col-md-4">
+                 
+                    	
+                	</div>
                 </div>
             </div>
         </div>
@@ -97,8 +107,8 @@
                 <h4>Research Assistant</h4>
                 <p>
 			<ul>
-				<li> Working on the Text to image synthesis using GAN approach in Remote Sensing</li>
-				<li> Implementation of Generative Adversarial Network using Python3 and Tensorflow.</li>
+				<li> The goal of my work is to solve the problem of lack of old maps, using a generative adversarial network (GAN), to generate images, given input from an ancient text.</li>
+				<li> I am currently working on the implementation of GAN and GUI for retro remote sensing using Python3 and Tensorflow.</li>
 			</ul>
                 </p>
          </div>
@@ -108,9 +118,9 @@
                 <h4>Student Researcher</h4>
                 <p>
 			<ul>
-				<li>Implemented Image based Indoor Localization and Mapping using MATLAB </li>
-				<li>Visual odometry is performed on the indoor image datasets to develop camera trajectory </li>
-				<li>Content based image retrieval is used along with visual odometry for localization and mapping of indoor mobile robots.</li>
+				<li>The goal was to implement Exact and infrastructure free, low-cost indoor positioning system. </li>
+				<li>Monocular visual odometry was performed on the indoor image data sets for localization, and content-based image retrieval(CBIR) is used for mapping of indoor mobile robots.</li>
+				<li>The prototype was developed in MATLAB and then implemented with Python and OpenCV for easy training and testing purpose. </li>
 			</ul>
                 </p>
         </div>
@@ -120,10 +130,9 @@
                 <h4>Student Researcher</h4>
                 <p>
 			<ul>
-				<li>Worked on the development of EMG based controller for wheelchair control</li>
-				<li>EMG signals are collected from Myo-band for a specific time duration and the root mean square value is
-				calculated for the classification purpose. </li>
-				<li>This data set is then classified using KNN and compared with EEG signals for performance evaluation.</li>
+				<li>The work was to develop an EMG based controller for controlling a custom made wheelchair.</li>
+				<li>EMG signals were collected from Myo-band and classified using KNN and ANN classifiers for better performance evaluation. </li>
+				<li>The work was implemented in Python using scikit-learn and Panda</li>
 			</ul>
                 </p>
         </div>
@@ -134,9 +143,9 @@
                 <p>
                 <p>
 			<ul>
-				<li>Implemented EEG based control application for a wheelchair using its spectral features with KNN classifier. </li>
-				<li>EEG signals collected form Emotiv EPOC headset is filtered, done principal component analysis(PCA) then smoothened and segmented to extract the useful data. </li>
-				<li>This data is then classified using KNN and then Brain Computer Interface was developed to control a wheel chair. </li>
+				<li>The objective of this work was to develop a Brain Computer Interface for controlling a custom made wheelchair from EEG signals.</li>
+				<li>EEG signals were collected form Emotiv EPOC headset; features were extracted and classified using KNN classifier.</li>
+				<li>The system was successfully implemented with an accuracy rate of 88% </li>
 			</ul>
                 </p>
 
@@ -148,8 +157,8 @@
 	                <h4>Student</h4>
 	                <p>
 				<ul>
-					<li>Implemented face detection from surveillance camera footage to detect the presence of intruders using haar-cascade classification in MATLAB </li>
-					<li>The classifier was trained using thousands of negative and positive images to get the desired performance even in low lighting conditions. </li>
+					<li>The objective was to detect the presence of intruders in a parking area. Face detection was implemented for surveillance camera footage using haar-cascade classification</li>
+					<li>The classifier was trained using our datasets to get the desired performance even in low lighting conditions. </li>
 				</ul>
 	                </p>
 	        </div>
@@ -214,6 +223,7 @@
 
     <div id="contact">
         <h2>Get in Touch</h2>
+        <h2>sreelakshmi.g2009@gmail.com</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
